@@ -1,7 +1,7 @@
 {
   "type": "app",
   "name": "stagemonitor Elasticsearch",
-  "id": "stagemonitor-grafana-elasticsearch",
+  "id": "stagemonitor-elasticsearch-app",
 
   "pages": [
   ],
@@ -34,7 +34,7 @@
       {"name": "stagemonitor Hosts Dashboard", "path": "img/screenshots/hosts.png"}
     ],
     "version": "0.26.0-SNAPSHOT",
-    "updated": "2016-06-02"
+    "updated": "2016-06-06"
   },
 
   "includes": [
