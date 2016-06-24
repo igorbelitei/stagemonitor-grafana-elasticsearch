@@ -33,8 +33,8 @@
       {"name": "stagemonitor Requests Dashboard", "path": "img/screenshots/requests.png"},
       {"name": "stagemonitor Hosts Dashboard", "path": "img/screenshots/hosts.png"}
     ],
-    "version": "0.26.1",
-    "updated": "2016-06-14"
+    "version": "0.27.0",
+    "updated": "2016-06-24"
   },
 
   "includes": [
@@ -43,56 +43,56 @@
         "name": "Application Server",
         "path": "dashboards/elasticsearchapplicationserver.json",
         "stagemonitorPlugin": "stagemonitor-web",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "Custom Metrics",
         "path": "dashboards/elasticsearchcustommetricsdashboard.json",
         "stagemonitorPlugin": "stagemonitor-core",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "EhCache",
         "path": "dashboards/elasticsearchehcache.json",
         "stagemonitorPlugin": "stagemonitor-ehcache",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "External Requests",
         "path": "dashboards/elasticsearchexternalrequestsdashboard.json",
         "stagemonitorPlugin": "stagemonitor-requestmonitor",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "Host",
         "path": "dashboards/elasticsearchhostdashboard.json",
         "stagemonitorPlugin": "stagemonitor-os",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "JVM",
         "path": "dashboards/elasticsearchjvm.json",
         "stagemonitorPlugin": "stagemonitor-jvm",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "Logging",
         "path": "dashboards/elasticsearchlogging.json",
         "stagemonitorPlugin": "stagemonitor-logging",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     },
     {
         "type": "dashboard",
         "name": "Request Metrics",
         "path": "dashboards/elasticsearchrequestdashboard.json",
         "stagemonitorPlugin": "stagemonitor-requestmonitor",
-        "revision": "0.26.1"
+        "revision": "0.27.0"
     }
 ],
 
