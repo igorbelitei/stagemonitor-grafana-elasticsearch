@@ -14,7 +14,7 @@
       "height": "100px",
       "panels": [
         {
-          "content": "# Application Server\n\nThis dashboard contains the session count of the application instances as well as the thread pool usage.\n\n\n---\n\n[Edit this page](https:\/\/github.com\/stagemonitor\/stagemonitor\/edit\/master\/stagemonitor-web\/src\/main\/resources\/grafana\/ElasticsearchApplicationServerDocumentation.md)\n",
+          "content": "# Application Server\n\nThis dashboard contains the session count of the application instances as well as the thread pool usage.\n\n\n---\n\n[Edit this page](https:\/\/github.com\/stagemonitor\/stagemonitor\/edit\/master\/stagemonitor-web-servlet\/src\/main\/resources\/grafana\/ElasticsearchApplicationServerDocumentation.md)\n",
           "editable": true,
           "error": false,
           "isNew": true,
