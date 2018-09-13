@@ -33,59 +33,59 @@
       {"name": "stagemonitor Requests Dashboard", "path": "img/screenshots/requests.png"},
       {"name": "stagemonitor Hosts Dashboard", "path": "img/screenshots/hosts.png"}
     ],
-    "version": "0.87.12",
-    "updated": "2018-08-10"
+    "version": "0.87.13",
+    "updated": "2018-09-13"
   },
 
   "includes": [
     {
         "type": "dashboard",
-        "name": "Request Metrics",
-        "path": "dashboards/elasticsearchrequestdashboard.json",
-        "stagemonitorPlugin": "stagemonitor-tracing",
-        "revision": "0.87.12"
+        "name": "Custom Metrics",
+        "path": "dashboards/elasticsearchcustommetricsdashboard.json",
+        "stagemonitorPlugin": "stagemonitor-core",
+        "revision": "0.87.13"
     },
     {
         "type": "dashboard",
-        "name": "Application Server",
-        "path": "dashboards/elasticsearchapplicationserver.json",
-        "stagemonitorPlugin": "stagemonitor-web-servlet",
-        "revision": "0.87.12"
+        "name": "Request Metrics",
+        "path": "dashboards/elasticsearchrequestdashboard.json",
+        "stagemonitorPlugin": "stagemonitor-tracing",
+        "revision": "0.87.13"
     },
     {
         "type": "dashboard",
         "name": "Host",
         "path": "dashboards/elasticsearchhostdashboard.json",
         "stagemonitorPlugin": "stagemonitor-os",
-        "revision": "0.87.12"
+        "revision": "0.87.13"
     },
     {
         "type": "dashboard",
         "name": "Logging",
         "path": "dashboards/elasticsearchlogging.json",
         "stagemonitorPlugin": "stagemonitor-logging",
-        "revision": "0.87.12"
+        "revision": "0.87.13"
     },
     {
         "type": "dashboard",
-        "name": "EhCache",
-        "path": "dashboards/elasticsearchehcache.json",
-        "stagemonitorPlugin": "stagemonitor-ehcache",
-        "revision": "0.87.12"
-    },
-    {
-        "type": "dashboard",
-        "name": "Custom Metrics",
-        "path": "dashboards/elasticsearchcustommetricsdashboard.json",
-        "stagemonitorPlugin": "stagemonitor-core",
-        "revision": "0.87.12"
+        "name": "Application Server",
+        "path": "dashboards/elasticsearchapplicationserver.json",
+        "stagemonitorPlugin": "stagemonitor-web-servlet",
+        "revision": "0.87.13"
     },
     {
         "type": "dashboard",
         "name": "JVM",
         "path": "dashboards/elasticsearchjvm.json",
         "stagemonitorPlugin": "stagemonitor-jvm",
-        "revision": "0.87.12"
+        "revision": "0.87.13"
+    },
+    {
+        "type": "dashboard",
+        "name": "EhCache",
+        "path": "dashboards/elasticsearchehcache.json",
+        "stagemonitorPlugin": "stagemonitor-ehcache",
+        "revision": "0.87.13"
     }
 ],
 
